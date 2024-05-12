@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+:root {
+    /* Colors */
+    --primary-color: #336699;
+    --secondary-color: #669966;
+    --accent-color: #FFA500;
+    --additional-accent-color: #CCCC00;
+    
+    /* Fonts */
+    --heading-font: 'Arial', sans-serif;
+    --paragraph-font: 'Arial', sans-serif;
+    
+    /* Navigation */
+    --navigation-background-color: #FFFFFF;
+    --navigation-link-color: #000000;
+    --navigation-hover-link-color: #336699;
+    --navigation-hover-background-color: #CCCCCC;
+  }
+  h1, h2, h3, h4, h5, h6{
+    font-family: var(--paragraph-font);
+    color: var(--primary-color #336699);
+  }
+  header{
+    background-color: var(--accent1-color #FFA500);
+    padding: 10px;
+  }
+  p{
+    padding: 25px;
+  }
+  nav{
+    background-color: var(--nav-background-color #FFA500);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  nav a{
+    display: block;
+    color: var(--nav-link-color #000000);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  nav a:hover nav a:visited{
+    color: var(--nav-hover-link-color #336699);
+  }
+  nav a:hover{
+    background-color: var(--nav-hover-background-color #CCCCCC);
+  }
