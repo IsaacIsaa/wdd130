@@ -23,29 +23,29 @@ body {
   }
   h1, h2, h3, h4, h5, h6{
     font-family: var(--paragraph-font);
-    color: var(--primary-color #336699);
+    color: var(--primary-color);
   }
   header{
-    background-color: var(--accent1-color #FFA500);
+    background-color: var(--accent-color);
     padding: 10px;
   }
   p{
     padding: 25px;
   }
   nav{
-    background-color: var(--nav-background-color #FFA500);
+    background-color: var(--navigation-background-color);
     font-size: 1.2rem;
     display: flex;
   }
   nav a{
     display: block;
-    color: var(--nav-link-color #000000);
+    color: var(--navigation-link-color);
     text-decoration: none;
     padding: 1rem;
   }
   nav a:hover nav a:visited{
-    color: var(--nav-hover-link-color #336699);
+    color: var(--navigation-hover-link-color);
   }
   nav a:hover{
-    background-color: var(--nav-hover-background-color #CCCCCC);
+    background-color: var(--navigation-hover-background-color);
   }
