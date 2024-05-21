@@ -5,16 +5,23 @@
 }
 nav{
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 nav a{
-    color: white;
+    color: #fff;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 h1{
     color: steelblue;
-    font-family: 'Arial Black'; 
+    font-family: 'Arial Black';
+    border-bottom: 1px solid #0c0101; 
 }
 img{
     width: 150px;
@@ -71,4 +78,22 @@ body{
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+header, .grid, footer{
+    max-width: 840px;
+    margin: 0 auto;
+}
+.grid{
+    display: grid;
+    align-items: center;
+}
+main{
+    grid-column: 2/3;
+    margin: 1rem;
+}
+aside{
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2; 
 }
