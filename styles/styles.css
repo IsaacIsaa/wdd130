@@ -45,6 +45,7 @@ aside{
     color: #333;
     text-align: center;
     position: relative;
+    /* grid-row: 1; */
 }  
 aside img{
     width: 200px;

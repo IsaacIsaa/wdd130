@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     font-family: var(--paragraph-font);
-    margin: 10px;
+    /* margin: 10px; */
   }
 
 :root {
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6{
     .hero {
       position: relative;
       width: 100%;
-      height: 100vh; 
+      /* height: 100vh;  */
       overflow: hidden;
     }
 
@@ -76,3 +76,103 @@ h1, h2, h3, h4, h5, h6{
       margin-left: 20px; 
       width: 200px;
     }
+
+    /* header {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 20px;
+      padding: 10px;
+    } */
+   
+    header {
+      margin: 1rem auto;
+      display: grid;
+      grid-template-columns: 120px 1fr 2fr;
+      align-items: center;
+      border-bottom: 1px solid #ccc;
+      max-width: 1000px;
+    }
+    
+    header img {
+      margin: 0 0.25rem 0 1rem;
+      width: 64px;
+      height: auto;
+    }
+    
+    h1 {
+      font-size: 2rem;
+      font-family: Acme, Arial, sans-serif;
+    }
+    /* nav {
+      text-align: right;
+    } */
+    .navigation {
+      display: flex;
+      list-style: none;
+      text-align: right;
+    }
+    .navigation a {
+      display: block;
+      color: navy;
+      padding: 20px;
+      text-decoration: none;
+    }
+    /* .navigation a:hover {
+      color: tomato;
+      font-weight: 700;
+    } */
+    header, img nav{
+      display: flex;
+      list-style: none;
+      text-align: right;
+    }
+    .history h2{
+      text-align: center;
+      font-size: 2rem;
+    }
+    .adventure h2{
+      text-align: center;
+      font-size: 2rem;
+    }
+    .adventures {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr); 
+      gap: 10px; 
+      padding: 20px; 
+    }
+    figure {
+      margin: 0; 
+      padding: 0;
+      text-align: center;
+    }
+    figcaption {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+    
+    img {
+      width: 100%;
+      height: auto; 
+      display: block;
+    }
+
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .social-media {
+    display: flex;
+    gap: 10px;
+  }
+  .social-media img{
+    width: 30px;
+  }
+  
