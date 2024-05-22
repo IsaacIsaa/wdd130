@@ -129,11 +129,9 @@ h1, h2, h3, h4, h5, h6{
     }
     .history h2{
       text-align: center;
-      font-size: 2rem;
     }
     .adventure h2{
       text-align: center;
-      font-size: 2rem;
     }
     .adventures {
       display: grid;
