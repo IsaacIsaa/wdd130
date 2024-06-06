@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6{
     }
     .navigation a {
       display: block;
-      color: navy;
+      color: #fff;
       padding: 16px;
       text-decoration: none;
     }
@@ -223,4 +223,181 @@ button {
 }
 button:hover {
     background-color: #0056b3;
+}
+/* The rafting Home page */
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+header .logo {
+  font-size: 24px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 36px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.newsletter {
+  padding: 20px;
+  text-align: center;
+}
+
+.newsletter h2 {
+  margin-bottom: 20px;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.call-to-action {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.call-to-action a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer p {
+  margin-top: 10px;
+}
+
+footer p a {
+  color: #fff;
+  text-decoration: underline;
+}
+/* The trips page */
+.cta {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.cta .btn {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.trip-descriptions {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.trip-descriptions article {
+  width: 30%;
+  text-align: center;
+}
+
+.trip-descriptions img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.trips-table {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.trips-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trips-table th, .trips-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.trips-table th {
+  background-color: #f2f2f2;
 }
